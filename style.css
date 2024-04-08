@@ -22,4 +22,75 @@ h1 {
     font-style:normal;
 }
 
-/* This is styling the link attached to the website titl
+/* This is styling the link attached to the website title */
+#site-title a {
+    text-decoration: none;
+    color: deeppink;
+}
+
+.oil-painting {
+    display: flex;
+    width: 100%;
+    padding-bottom: 5%;
+    background-color: #FFE6E6;
+    margin-left: 0;
+}
+
+.home-pictures {
+    display: flex;
+    width: 100%;
+    background-color: #E6FFEB;
+    margin-left: 0;
+}
+.oil-painting img {
+    width: 900px;
+    height: auto;
+    padding-top: 2%;
+    padding-left: 2%;
+}
+
+.oil-painting figcaption {
+    padding-top: 23%;
+    text-align: center;
+    padding-left: 4%;
+    font-size: 20px;
+    font-weight: bold;
+    color: deeppink;
+}
+
+.home-pictures img {
+    width: 900px;
+    height: auto;
+}
+
+.home-pictures figcaption {
+    padding-top: 23%;
+    text-align: center;
+    font-size: 20px;
+    padding-left: 8%;
+    color: deeppink;
+}
+
+.art-pictures img {
+    width: 600px;
+    height: auto;
+    border-style: solid;
+    border-width: 12px;
+}
+
+.art-title {
+    font-weight: bold;
+    background-color: #FFE6E6;
+    padding-top: 10px;
+}
+
+.art-materials {
+    font-style: italic;
+    background-color: #FFE6E6;
+    padding-bottom: 6px;
+}
+
+.art-description {
+    background-color: #FFE6E6;
+    padding-bottom: 10px;
+}
